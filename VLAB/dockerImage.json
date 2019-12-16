@@ -1,0 +1,18 @@
+{
+
+  "image": "giswt/vlabs2png",
+  "privateimage": false,
+  "resources": {
+    "memory_mb": "4000",
+    "cpu_units": ""
+ },
+  "container": {
+    "entryPoint": [
+      "/bin/bash",
+      "-c"
+ ],
+    "command": [
+      "source activate snappyEnv && ./run.sh"
+ ]
+  }
+}
